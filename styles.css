@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #e8f0fe;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    height: 10vh;
+    width: 100vw;
+    padding-top: 20px;
+    box-shadow: 2px 2px 5px grey;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin-top: 90px;
+}
+
+.button-container {
+    padding: 40px;
+}
+
+.button {
+    display: inline;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 18px;
+    border: 1px solid #d2e3fc;
+    background: #fff;
+    letter-spacing: 1px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+ul {
+    background-color: white;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 2px 2px 5px grey;
+    padding-left: 20px;
+    height: 100%;
+    padding-bottom: 40px;;
+    padding-top: 40px;
+}
+
+li {
+    list-style: none;
+    padding: 12px;
+    border: solid 1px lightgrey;
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+li:nth-child(1) {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+li:nth-last-child(1) {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
