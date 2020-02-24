@@ -5,6 +5,7 @@
 }
 
 body {
+    border: black solid 5px;
     font-family: sans-serif;
     text-align: center;
     background-color: #e8f0fe;
@@ -59,17 +60,21 @@ ul {
 li {
     list-style: none;
     padding: 12px;
-    border: solid 1px lightgrey;
+    border-bottom: solid 1px lightgrey;
     margin-right: 20px;
     letter-spacing: 1px;
 }
 
-li:nth-child(1) {
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+/* tablet */
+@media (min-width: 500px) {
+    body {
+        border: green solid 5px;
+    }
 }
 
-li:nth-last-child(1) {
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+/* desktop */
+@media (min-width: 1024px) {
+    body {
+        border: blue solid 5px;
+    }
 }
